@@ -22,9 +22,6 @@
     <a href="https://badge.fury.io/gh/tiaanduplessis%2Fhttpness">
       <img src="https://badge.fury.io/gh/tiaanduplessis%2Fhttpness.svg?style=flat-square" alt="GitHub version" />
    </a>
-   <a href="http://packagequality.com/#?package=httpness">
-    <img src="http://packagequality.com/shield/httpness.svg" alt="Package quality"/>
-  </a>
 </div>
 <br>
 <div align="center">
@@ -68,25 +65,32 @@ $ httpness --url=https://jsonplaceholder.typicode.com/posts/1
 
 This will output:
 
+
 <div align="center" >
 	<image src="media/get-example.png" alt="GET example" width="80%"/>
 </div>
 
+
 It also supports other HTTP methods like `POST`:
+
 
 ```sh
 $ httpness --url=https://jsonplaceholder.typicode.com/posts --method=POST --body={title: 'Hi', body: 'Friend', userId: 1}
 ```
 
+
 This will output:
+
 
 <div align="center">
 	<image src="media/post-example.png" alt="POST example" width="80%"/>
 </div>
 
+
 ## API
 
 The following argument flags are supported:
+
 
 <table style="width:100%">
   <tr>

@@ -16,7 +16,6 @@ const credentials = (args.credentials || args.c) || ''
 if (!url) {
   console.error('\nURL not provided for the request.\n')
 } else {
-
   const options = {
     method: method.toUpperCase(),
     headers,
