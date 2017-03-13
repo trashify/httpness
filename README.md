@@ -44,6 +44,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/httpness.svg)](https://greenkeeper.io/)
+
 This cli module is a simple HTTP client similar to [httpie](https://httpie.org/), but with a lot less functionality. It is build on top of [node-fetch](https://github.com/bitinn/node-fetch) and uses [prettyjson](https://github.com/rafeca/prettyjson) to provide nice formatting.
 
 ## Install
