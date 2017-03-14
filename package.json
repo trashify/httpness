@@ -34,7 +34,7 @@
     "httpness"
   ],
   "dependencies": {
-    "get-them-args": "^1.2.0",
+    "get-them-args": "^1.2.1",
     "node-fetch": "^1.6.3",
     "prettyjson": "^1.2.1"
   },
